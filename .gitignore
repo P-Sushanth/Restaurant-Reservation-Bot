@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# FastAPI / SQLite
+restaurant.db
+
+# Node / Frontend
+node_modules/
+dist/
+.DS_Store
+frontend/dist/
+frontend/node_modules/
+
+# IDEs
+.vscode/
+.idea/
